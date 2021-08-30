@@ -10,5 +10,4 @@ class EventReceiver : BroadcastReceiver(){
         val action = intent?.action
         Toast.makeText(context, "Ação:\n$action", Toast.LENGTH_LONG).show()
     }
-
 }
